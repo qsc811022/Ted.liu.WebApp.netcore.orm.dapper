@@ -73,6 +73,7 @@ namespace WebApplication2.Controllers
         // GET: FoodController/Delete/5
         public ActionResult Delete(int id)
         {
+
             var data = service.GetId(id);
             return View(data);
         }
